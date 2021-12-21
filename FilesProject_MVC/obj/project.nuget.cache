@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GVdzFBZzVcz6afu5eMaFKicLkTMu+8ZmVgSyeY7eX1sjHavpjSrQjsPU+ieXT8us9XsbcxuMH7H+nQ8XZdMjeQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CW2_Rosado\\OneDrive\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CW2_Rosado\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
