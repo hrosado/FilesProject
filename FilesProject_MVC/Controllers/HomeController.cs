@@ -29,11 +29,13 @@ namespace FilesProject_MVC.Controllers
         [HttpGet]
         public JsonResult GetData()
         {
-            string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\";
+            //string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\";
+            string rootPath = @"C:\Users\CW2_Rosado\OneDrive\Documents\";
             bool directoryExists = Directory.Exists(rootPath);
 
             Console.WriteLine("The directory exists.");
-            string[] files = Directory.GetFiles(rootPath, "*.pdf", SearchOption.TopDirectoryOnly);
+            // string[] files = Directory.GetFiles(rootPath, "*.pdf", SearchOption.TopDirectoryOnly);
+            string[] files = Directory.GetFiles(rootPath, "*.*", SearchOption.TopDirectoryOnly);
             List<string> fileItems = new List<string>();
             foreach (var file in files)
             {
