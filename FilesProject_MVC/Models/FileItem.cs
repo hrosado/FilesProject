@@ -7,7 +7,7 @@ namespace FilesProject_MVC.Models
 {
     public class FileItem
     {
-        public int FileID { get; set; }
+        //public int FileID { get; set; }
         public string FileName { get; set; }
         public DateTime FileLastAccessTime { get; set; }
         public string FileSize { get; set; }

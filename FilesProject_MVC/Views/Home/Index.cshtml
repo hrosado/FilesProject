@@ -2,7 +2,49 @@
     ViewData["Title"] = "Home Page";
 }
 
+@section Scripts {
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script>
+        //$(document).ready(function () {
+        //    $('#myTable').DataTable();
+        //});
+        $(document).ready(function () {
+            $('#fileTable').DataTable(
+                {
+                    "ajax": {
+                        "url": "/Home/GetData",
+                        "type": "GET",
+                        "datatype": "json"
+                    },
+                    "columns": [
+                        { "data": "fileName" },
+                        { "data": "fileLastAccessTime" },
+                        { "data": "fileSize" }
+                    ]
+
+                })
+        })
+    </script>
+}
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<table id="fileTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>File Name</th>
+                <th>Last Access Time</th>
+                <th>File Size</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr>
+                <th>File Name</th>
+                <th>Last Access Time</th>
+                <th>File Size</th>
+            </tr>
+        </tfoot>
+    </table>

@@ -38,4 +38,3 @@ C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\obj\D
 C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\obj\Debug\net5.0\ref\FilesProject_MVC.dll
 C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.pdb
 C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.genruntimeconfig.cache
-C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.csproj.AssemblyReference.cache

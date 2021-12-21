@@ -26,7 +26,8 @@ namespace FilesProject_MVC.Controllers
         }
 
         //List<FileItem> fileItems = new List<FileItem>();
-        public JsonResult FileItemsData()
+        [HttpGet]
+        public JsonResult GetData()
         {
             string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\";
             bool directoryExists = Directory.Exists(rootPath);
@@ -42,16 +43,16 @@ namespace FilesProject_MVC.Controllers
 
             }
 
-            var list = new List<FileItem>();
-            int count = 0;
+            List<FileItem> list = new List<FileItem>();
+            //int count = 0;
             foreach (var line in fileItems)
             {
                 string[] entries = line.Split(',');
                 FileItem newFileItem = new FileItem();
 
-                count++;
+                //count++;
 
-                newFileItem.FileID = count;
+                //newFileItem.FileID = count;
                 newFileItem.FileName = entries[0];
                 newFileItem.FileLastAccessTime = Convert.ToDateTime(entries[1]);
                 newFileItem.FileSize = entries[2];
@@ -59,17 +60,17 @@ namespace FilesProject_MVC.Controllers
                 list.Add(newFileItem);
 
             }
-            foreach (var li in list)
-            {
-                Console.WriteLine($"{ li.FileID},{  li.FileName },{ li.FileLastAccessTime },{ li.FileSize } ");
-            }
+            //foreach (var li in list)
+            //{
+            //    Console.WriteLine($"{  li.FileName },{ li.FileLastAccessTime },{ li.FileSize } ");
+            //}
             string strResultJson = JsonConvert.SerializeObject(list, Formatting.Indented);
             string jsonFormatted = JValue.Parse(strResultJson).ToString(Formatting.Indented);
             // string path = "~/data/";
             string path = @"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\wwwroot\data\";
             System.IO.File.WriteAllText(path + "files.json", strResultJson);
 
-            return Json(jsonFormatted);
+            return Json(new { data = list });
         }
         public ActionResult Index()
         {
