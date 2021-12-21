@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Newtonsoft;
 
 namespace FilesProject_MVC
 {
@@ -23,6 +24,10 @@ namespace FilesProject_MVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddMvc().AddJsonOptions(options => 
+            { 
+                options.JsonSerializerOptions.WriteIndented = true; 
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
