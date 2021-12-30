@@ -30,7 +30,7 @@ namespace FilesProject_MVC.Controllers
         public JsonResult GetData()
         {
             //string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\";
-            string rootPath = @"C:\Users\CW2_Rosado\OneDrive\Documents\";
+            string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\TestDir";
             bool directoryExists = Directory.Exists(rootPath);
 
             Console.WriteLine("The directory exists.");
