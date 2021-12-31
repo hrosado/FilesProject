@@ -52,8 +52,6 @@ namespace FilesProject_MVC.Controllers
                     fs2.Close();
                     System.IO.File.Copy(sourceFile, destFile, true);
                 }
- 
-                // Check if the file is the most recent
 
                 try
                 {
@@ -75,8 +73,6 @@ namespace FilesProject_MVC.Controllers
                 GetData();
                 return Json("");
             }
-
-
 
         }
         public ActionResult Index()
