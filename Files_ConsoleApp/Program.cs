@@ -25,7 +25,8 @@ namespace Files_ConsoleApp
         static void Main(string[] args)
         {
 
-            string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\";
+            // string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\";
+            string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\TestDir\";
             bool directoryExists = Directory.Exists(rootPath);
 
             if (directoryExists)
