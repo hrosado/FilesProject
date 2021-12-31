@@ -6235,11 +6235,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CW2_Rosado\\OneDrive\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
+      "projectUniqueName": "C:\\Users\\CW2_Rosado\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
       "projectName": "FilesProject_MVC",
-      "projectPath": "C:\\Users\\CW2_Rosado\\OneDrive\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
+      "projectPath": "C:\\Users\\CW2_Rosado\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
       "packagesPath": "C:\\Users\\CW2_Rosado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CW2_Rosado\\OneDrive\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\obj\\",
+      "outputPath": "C:\\Users\\CW2_Rosado\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CW2_Rosado\\AppData\\Roaming\\NuGet\\NuGet.Config",

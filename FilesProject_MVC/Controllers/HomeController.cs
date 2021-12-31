@@ -28,24 +28,25 @@ namespace FilesProject_MVC.Controllers
             FileStream fs2;
 
 
-            string consolePath = @"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\Files_ConsoleApp\data\";
+            string consolePath = @"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\data\";
 
-            string path = @"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\wwwroot\data\";
+            string path = @"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\data\";
             string fileName = "files.json";
             // Use Path class to manipulate file and directory paths.
             string sourceFile = System.IO.Path.Combine(consolePath, fileName);
             string destFile = System.IO.Path.Combine(path, fileName);
 
-            // Open the two files.
-            fs1 = new FileStream(sourceFile, FileMode.Open);
-            fs2 = new FileStream(destFile, FileMode.Open);
+
 
 
             // Check if file exists
             if (System.IO.File.Exists(path + fileName))
             {
+                // Open the two files.
+                fs1 = new FileStream(sourceFile, FileMode.Open);
+                fs2 = new FileStream(destFile, FileMode.Open);
                 // Check if the file is empty
-                if((fs1.Length > fs2.Length))
+                if ((fs1.Length > fs2.Length))
                 {
                     // Close the file
                     fs1.Close();
@@ -56,7 +57,7 @@ namespace FilesProject_MVC.Controllers
                 try
                 {
 
-                    string jsonString = System.IO.File.ReadAllText(@"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\wwwroot\data\files.json");
+                    string jsonString = System.IO.File.ReadAllText(@"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\data\files.json");
 
                     var fileItem = JsonConvert.DeserializeObject<List<FileItem>>(jsonString);
 
