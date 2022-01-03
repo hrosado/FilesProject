@@ -85,7 +85,6 @@ C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\bin\Debug\ne
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.csproj.AssemblyReference.cache
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.AssemblyInfoInputs.cache
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.AssemblyInfo.cs
