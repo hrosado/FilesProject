@@ -26,13 +26,15 @@ namespace Files_ConsoleApp
         {
 
             // string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\";
-            string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\TestDir\";
+            //string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\TestDir\";
+            string rootPath = @"\\hqcuilms.area52.afnoapps.usaf.mil\E\DLL_Reengineering\Dependencies_x64_Release\";
+
             bool directoryExists = Directory.Exists(rootPath);
 
             if (directoryExists)
             {
                 Console.WriteLine("The directory exists.");
-                string[] files = Directory.GetFiles(rootPath, "*.pdf", SearchOption.TopDirectoryOnly);
+                string[] files = Directory.GetFiles(rootPath, "*.*", SearchOption.TopDirectoryOnly);
                 List<string> fileItems = new List<string>();
                 foreach (var file in files)
                 {
@@ -64,7 +66,7 @@ namespace Files_ConsoleApp
                     Console.WriteLine($"{ li.FileID},{  li.FileName },{ li.FileLastAccessTime },{ li.FileSize } ");
                 }
                 string strResultJson = JsonConvert.SerializeObject(list, Formatting.Indented);
-                File.WriteAllText(@"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\Files_ConsoleApp\data\files.json", strResultJson);
+                File.WriteAllText(@"C:\Users\1260021520E\Documents\09_APL\FilesProject\Files_ConsoleApp\data\files.json", strResultJson);
 
             }
             else
