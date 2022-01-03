@@ -28,9 +28,10 @@ namespace FilesProject_MVC.Controllers
             FileStream fs2;
 
 
-            string consolePath = @"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\data\";
+            //string consolePath = @"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\data\";
+            string consolePath = @"C:\Users\1260021520E\Documents\09_APL\FilesProject\Files_ConsoleApp\data\";
 
-            string path = @"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\data\";
+            string path = @"C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\data\";
             string fileName = "files.json";
             // Use Path class to manipulate file and directory paths.
             string sourceFile = System.IO.Path.Combine(consolePath, fileName);
@@ -57,7 +58,7 @@ namespace FilesProject_MVC.Controllers
                 try
                 {
 
-                    string jsonString = System.IO.File.ReadAllText(@"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\data\files.json");
+                    string jsonString = System.IO.File.ReadAllText(@"C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\data\files.json");
 
                     var fileItem = JsonConvert.DeserializeObject<List<FileItem>>(jsonString);
 
