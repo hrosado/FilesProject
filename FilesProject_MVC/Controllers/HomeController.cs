@@ -44,17 +44,17 @@ namespace FilesProject_MVC.Controllers
             // Check if file exists
             if (System.IO.File.Exists(path + fileName))
             {
-                // Open the two files.
-                fs1 = new FileStream(sourceFile, FileMode.Open);
-                fs2 = new FileStream(destFile, FileMode.Open);
-                // Check if the file is empty
-                if ((fs1.Length > fs2.Length))
-                {
-                    // Close the file
-                    fs1.Close();
-                    fs2.Close();
-                    System.IO.File.Copy(sourceFile, destFile, true);
-                }
+                //// Open the two files.
+                //fs1 = new FileStream(sourceFile, FileMode.Open);
+                //fs2 = new FileStream(destFile, FileMode.Open);
+                //// Check if the file is empty
+                //if ((fs1.Length > fs2.Length))
+                //{
+                //    // Close the file
+                //    fs1.Close();
+                //    fs2.Close();
+                //    System.IO.File.Copy(sourceFile, destFile, true);
+                //}
 
                 try
                 {
