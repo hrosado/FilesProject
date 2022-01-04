@@ -23,3 +23,4 @@ C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\obj\Debug\File
 C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\obj\Debug\Files_ConsoleApp.csproj.CopyComplete
 C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\obj\Debug\Files_ConsoleApp.exe
 C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\obj\Debug\Files_ConsoleApp.pdb
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\obj\Debug\Files_ConsoleApp.csproj.AssemblyReference.cache

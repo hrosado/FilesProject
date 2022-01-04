@@ -231,3 +231,5 @@ C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\obj\Debug\ne
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.pdb
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.genruntimeconfig.cache
 C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\bin\Debug\net5.0\data\files.json
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\bin\Debug\net5.0\FilesDB.db
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\obj\Debug\net5.0\FilesProject_MVC.csproj.AssemblyReference.cache
