@@ -55,8 +55,10 @@ namespace FilesProject_MVC.Controllers
 
                 try
                 {
-
+                    // Dell
+                    //string jsonString = System.IO.File.ReadAllText(@"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\wwwroot\data\files.json");
                     string jsonString = System.IO.File.ReadAllText(@"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\wwwroot\data\files.json");
+
 
                     var fileItem = JsonConvert.DeserializeObject<List<FileItem>>(jsonString);
 
