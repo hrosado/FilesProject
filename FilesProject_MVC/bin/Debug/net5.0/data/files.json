@@ -1,0 +1,404 @@
+[
+  {
+    "FileID": 1,
+    "FileName": "api-ms-win-core-console-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:28:52",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 2,
+    "FileName": "api-ms-win-core-datetime-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:28:50",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 3,
+    "FileName": "api-ms-win-core-debug-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:28:56",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 4,
+    "FileName": "api-ms-win-core-errorhandling-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:28:58",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 5,
+    "FileName": "api-ms-win-core-file-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:29:02",
+    "FileSize": "22280 bytes"
+  },
+  {
+    "FileID": 6,
+    "FileName": "api-ms-win-core-file-l1-2-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:18",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 7,
+    "FileName": "api-ms-win-core-file-l2-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:22",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 8,
+    "FileName": "api-ms-win-core-handle-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:34",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 9,
+    "FileName": "api-ms-win-core-heap-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:36",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 10,
+    "FileName": "api-ms-win-core-interlocked-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:38",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 11,
+    "FileName": "api-ms-win-core-libraryloader-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:14",
+    "FileSize": "19720 bytes"
+  },
+  {
+    "FileID": 12,
+    "FileName": "api-ms-win-core-localization-l1-2-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:18",
+    "FileSize": "21256 bytes"
+  },
+  {
+    "FileID": 13,
+    "FileName": "api-ms-win-core-memory-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:20",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 14,
+    "FileName": "api-ms-win-core-namedpipe-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:42",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 15,
+    "FileName": "api-ms-win-core-processenvironment-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:36",
+    "FileSize": "19720 bytes"
+  },
+  {
+    "FileID": 16,
+    "FileName": "api-ms-win-core-processthreads-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:22",
+    "FileSize": "20744 bytes"
+  },
+  {
+    "FileID": 17,
+    "FileName": "api-ms-win-core-processthreads-l1-1-1.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:24",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 18,
+    "FileName": "api-ms-win-core-profile-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:34",
+    "FileSize": "18184 bytes"
+  },
+  {
+    "FileID": 19,
+    "FileName": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:34",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 20,
+    "FileName": "api-ms-win-core-string-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:22",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 21,
+    "FileName": "api-ms-win-core-synch-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:24",
+    "FileSize": "20744 bytes"
+  },
+  {
+    "FileID": 22,
+    "FileName": "api-ms-win-core-synch-l1-2-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:20",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 23,
+    "FileName": "api-ms-win-core-sysinfo-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:36",
+    "FileSize": "19720 bytes"
+  },
+  {
+    "FileID": 24,
+    "FileName": "api-ms-win-core-timezone-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:24",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 25,
+    "FileName": "api-ms-win-core-util-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:38",
+    "FileSize": "18696 bytes"
+  },
+  {
+    "FileID": 26,
+    "FileName": "api-ms-win-crt-conio-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:26",
+    "FileSize": "19720 bytes"
+  },
+  {
+    "FileID": 27,
+    "FileName": "api-ms-win-crt-convert-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:24",
+    "FileSize": "22792 bytes"
+  },
+  {
+    "FileID": 28,
+    "FileName": "api-ms-win-crt-environment-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:36",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 29,
+    "FileName": "api-ms-win-crt-filesystem-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:26",
+    "FileSize": "20744 bytes"
+  },
+  {
+    "FileID": 30,
+    "FileName": "api-ms-win-crt-heap-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:36",
+    "FileSize": "19720 bytes"
+  },
+  {
+    "FileID": 31,
+    "FileName": "api-ms-win-crt-locale-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:36",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 32,
+    "FileName": "api-ms-win-crt-math-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:18",
+    "FileSize": "27912 bytes"
+  },
+  {
+    "FileID": 33,
+    "FileName": "api-ms-win-crt-multibyte-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:20",
+    "FileSize": "26888 bytes"
+  },
+  {
+    "FileID": 34,
+    "FileName": "api-ms-win-crt-private-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:26",
+    "FileSize": "71432 bytes"
+  },
+  {
+    "FileID": 35,
+    "FileName": "api-ms-win-crt-process-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:26",
+    "FileSize": "19720 bytes"
+  },
+  {
+    "FileID": 36,
+    "FileName": "api-ms-win-crt-runtime-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:26",
+    "FileSize": "23304 bytes"
+  },
+  {
+    "FileID": 37,
+    "FileName": "api-ms-win-crt-stdio-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:30",
+    "FileSize": "24840 bytes"
+  },
+  {
+    "FileID": 38,
+    "FileName": "api-ms-win-crt-string-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:32",
+    "FileSize": "24840 bytes"
+  },
+  {
+    "FileID": 39,
+    "FileName": "api-ms-win-crt-time-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:30",
+    "FileSize": "21256 bytes"
+  },
+  {
+    "FileID": 40,
+    "FileName": "api-ms-win-crt-utility-l1-1-0.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:38",
+    "FileSize": "19208 bytes"
+  },
+  {
+    "FileID": 41,
+    "FileName": "ClrPhlib.dll",
+    "FileLastAccessTime": "2021-10-25T19:40:06",
+    "FileSize": "781312 bytes"
+  },
+  {
+    "FileID": 42,
+    "FileName": "ClrPhlib.pdb",
+    "FileLastAccessTime": "2021-10-25T19:40:06",
+    "FileSize": "5181440 bytes"
+  },
+  {
+    "FileID": 43,
+    "FileName": "dbghelp.dll",
+    "FileLastAccessTime": "2021-06-12T17:20:22",
+    "FileSize": "1903616 bytes"
+  },
+  {
+    "FileID": 44,
+    "FileName": "Dependencies.exe",
+    "FileLastAccessTime": "2021-10-25T19:40:16",
+    "FileSize": "25600 bytes"
+  },
+  {
+    "FileID": 45,
+    "FileName": "Dependencies.exe.config",
+    "FileLastAccessTime": "2021-10-25T19:39:04",
+    "FileSize": "186 bytes"
+  },
+  {
+    "FileID": 46,
+    "FileName": "Dependencies.pdb",
+    "FileLastAccessTime": "2021-10-25T19:40:16",
+    "FileSize": "54784 bytes"
+  },
+  {
+    "FileID": 47,
+    "FileName": "DependenciesGui.exe",
+    "FileLastAccessTime": "2021-10-25T19:40:16",
+    "FileSize": "202752 bytes"
+  },
+  {
+    "FileID": 48,
+    "FileName": "DependenciesGui.exe.config",
+    "FileLastAccessTime": "2021-10-25T19:39:04",
+    "FileSize": "2211 bytes"
+  },
+  {
+    "FileID": 49,
+    "FileName": "DependenciesGui.pdb",
+    "FileLastAccessTime": "2021-10-25T19:40:16",
+    "FileSize": "255488 bytes"
+  },
+  {
+    "FileID": 50,
+    "FileName": "DependenciesLib.dll",
+    "FileLastAccessTime": "2021-10-25T19:40:10",
+    "FileSize": "18944 bytes"
+  },
+  {
+    "FileID": 51,
+    "FileName": "DependenciesLib.pdb",
+    "FileLastAccessTime": "2021-10-25T19:40:10",
+    "FileSize": "42496 bytes"
+  },
+  {
+    "FileID": 52,
+    "FileName": "Dragablz.dll",
+    "FileLastAccessTime": "2021-10-25T19:40:14",
+    "FileSize": "236544 bytes"
+  },
+  {
+    "FileID": 53,
+    "FileName": "Dragablz.pdb",
+    "FileLastAccessTime": "2021-10-25T19:40:14",
+    "FileSize": "421376 bytes"
+  },
+  {
+    "FileID": 54,
+    "FileName": "Mono.Cecil.dll",
+    "FileLastAccessTime": "2021-07-01T23:17:30",
+    "FileSize": "358400 bytes"
+  },
+  {
+    "FileID": 55,
+    "FileName": "Mono.Cecil.Mdb.dll",
+    "FileLastAccessTime": "2021-07-01T23:17:30",
+    "FileSize": "43008 bytes"
+  },
+  {
+    "FileID": 56,
+    "FileName": "Mono.Cecil.Mdb.pdb",
+    "FileLastAccessTime": "2021-07-01T23:17:30",
+    "FileSize": "19152 bytes"
+  },
+  {
+    "FileID": 57,
+    "FileName": "Mono.Cecil.pdb",
+    "FileLastAccessTime": "2021-07-01T23:17:30",
+    "FileSize": "184264 bytes"
+  },
+  {
+    "FileID": 58,
+    "FileName": "Mono.Cecil.Pdb.dll",
+    "FileLastAccessTime": "2021-07-01T23:17:30",
+    "FileSize": "89600 bytes"
+  },
+  {
+    "FileID": 59,
+    "FileName": "Mono.Cecil.Pdb.pdb",
+    "FileLastAccessTime": "2021-07-01T23:17:30",
+    "FileSize": "26384 bytes"
+  },
+  {
+    "FileID": 60,
+    "FileName": "Mono.Cecil.Rocks.dll",
+    "FileLastAccessTime": "2021-07-01T23:17:30",
+    "FileSize": "27648 bytes"
+  },
+  {
+    "FileID": 61,
+    "FileName": "Mono.Cecil.Rocks.pdb",
+    "FileLastAccessTime": "2021-07-01T23:17:30",
+    "FileSize": "8940 bytes"
+  },
+  {
+    "FileID": 62,
+    "FileName": "MSVCP140.dll",
+    "FileLastAccessTime": "2021-07-27T10:54:04",
+    "FileSize": "565640 bytes"
+  },
+  {
+    "FileID": 63,
+    "FileName": "NDesk.Options.dll",
+    "FileLastAccessTime": "2011-01-06T21:24:40",
+    "FileSize": "22016 bytes"
+  },
+  {
+    "FileID": 64,
+    "FileName": "Newtonsoft.Json.dll",
+    "FileLastAccessTime": "2021-03-17T21:03:36",
+    "FileSize": "701992 bytes"
+  },
+  {
+    "FileID": 65,
+    "FileName": "ucrtbase.dll",
+    "FileLastAccessTime": "2018-04-20T08:37:42",
+    "FileSize": "1016584 bytes"
+  },
+  {
+    "FileID": 66,
+    "FileName": "VCRUNTIME140.dll",
+    "FileLastAccessTime": "2021-07-27T10:54:24",
+    "FileSize": "97160 bytes"
+  },
+  {
+    "FileID": 67,
+    "FileName": "VCRUNTIME140_1.dll",
+    "FileLastAccessTime": "2021-07-27T10:54:20",
+    "FileSize": "37256 bytes"
+  }
+]
