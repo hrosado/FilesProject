@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = FilesProject_MVC
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\hommy\Documents\Repos\FilesProject\FilesProject_MVC\
+=======
+build_property.ProjectDir = C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\
+>>>>>>> b35cb0d98f156b1bdedd11968891a56a8e8b9db7
