@@ -28,9 +28,10 @@ namespace FilesProject_MVC.Controllers
             FileStream fs2;
 
 
-            //string consolePath = @"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\data\";
+            // string consolePath = @"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\Files_ConsoleApp\data\";
             string consolePath = @"C:\Users\1260021520E\Documents\09_APL\FilesProject\Files_ConsoleApp\data\";
 
+            // string path = @"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\data\";
             string path = @"C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\data\";
             string fileName = "files.json";
             // Use Path class to manipulate file and directory paths.
@@ -43,28 +44,33 @@ namespace FilesProject_MVC.Controllers
             // Check if file exists
             if (System.IO.File.Exists(path + fileName))
             {
-                // Open the two files.
-                fs1 = new FileStream(sourceFile, FileMode.Open);
-                fs2 = new FileStream(destFile, FileMode.Open);
-                // Check if the file is empty
-                if ((fs1.Length > fs2.Length))
-                {
-                    // Close the file
-                    fs1.Close();
-                    fs2.Close();
-                    System.IO.File.Copy(sourceFile, destFile, true);
-                }
+                //// Open the two files.
+                //fs1 = new FileStream(sourceFile, FileMode.Open);
+                //fs2 = new FileStream(destFile, FileMode.Open);
+                //// Check if the file is empty
+                //if ((fs1.Length > fs2.Length))
+                //{
+                //    // Close the file
+                //    fs1.Close();
+                //    fs2.Close();
+                //    System.IO.File.Copy(sourceFile, destFile, true);
+                //}
 
                 try
                 {
+<<<<<<< HEAD
 <<<<<<< HEAD
                     // Dell
                     //string jsonString = System.IO.File.ReadAllText(@"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\wwwroot\data\files.json");
                     string jsonString = System.IO.File.ReadAllText(@"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\FilesProject_MVC\wwwroot\data\files.json");
 =======
+=======
+                    // string jsonString = System.IO.File.ReadAllText(@"C:\Users\CW2_Rosado\Documents\Repos\FilesProject\FilesProject_MVC\data\files.json");
+>>>>>>> Hyperlinks
 
                     string jsonString = System.IO.File.ReadAllText(@"C:\Users\1260021520E\Documents\09_APL\FilesProject\FilesProject_MVC\data\files.json");
 >>>>>>> b35cb0d98f156b1bdedd11968891a56a8e8b9db7
+
 
 
                     var fileItem = JsonConvert.DeserializeObject<List<FileItem>>(jsonString);

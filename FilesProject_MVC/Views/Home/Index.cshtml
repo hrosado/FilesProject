@@ -17,7 +17,11 @@
                         "datatype": "json"
                     },
                     "columns": [
-                        { "data": "fileName" },
+                        {
+                            "data": "fileName", "render": function (data) {
+                                return '<a href="' + data + '">'+data+'</a>';
+                            }
+                        },
                         { "data": "fileLastAccessTime" },
                         { "data": "fileSize" }
                     ]
