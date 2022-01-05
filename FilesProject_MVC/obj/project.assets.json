@@ -6230,19 +6230,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CW2_Rosado\\.nuget\\packages\\": {}
+    "C:\\Users\\hommy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\hommy\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
+      "projectName": "FilesProject_MVC",
+      "projectPath": "C:\\Users\\hommy\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
+      "packagesPath": "C:\\Users\\hommy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hommy\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\CW2_Rosado\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
       "projectName": "FilesProject_MVC",
       "projectPath": "C:\\Users\\CW2_Rosado\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\FilesProject_MVC.csproj",
       "packagesPath": "C:\\Users\\CW2_Rosado\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\CW2_Rosado\\Documents\\Repos\\FilesProject\\FilesProject_MVC\\obj\\",
+>>>>>>> b35cb0d98f156b1bdedd11968891a56a8e8b9db7
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CW2_Rosado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hommy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
