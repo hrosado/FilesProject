@@ -1,0 +1,11 @@
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\CW2_Rosado\Documents\Repos\FilesProject\MinimalAPIDemoApp\DataAccess\obj\Debug\net6.0\DataAccess.pdb

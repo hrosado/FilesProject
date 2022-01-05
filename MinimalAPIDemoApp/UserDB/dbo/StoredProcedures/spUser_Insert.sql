@@ -3,6 +3,6 @@
 	@LastName nvarchar(50)
 AS
 begin
-	insert intodbo.[User] (FirstName, LastName)
+	insert into dbo.[User] (FirstName, LastName)
 	values (@FirstName, @LastName);
 end
