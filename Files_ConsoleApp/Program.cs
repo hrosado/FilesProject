@@ -26,16 +26,14 @@ namespace Files_ConsoleApp
         {
 
             // string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\";
-<<<<<<< HEAD
 
             // Dell
             // string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\TestDir\";
             string rootPath = @"C:\Users\hommy\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\TestDir\";
-=======
-            //string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\TestDir\";
-            string rootPath = @"\\hqcuilms.area52.afnoapps.usaf.mil\E\DLL_Reengineering\Dependencies_x64_Release\";
 
->>>>>>> b35cb0d98f156b1bdedd11968891a56a8e8b9db7
+            //string rootPath = @"C:\Users\CW2_Rosado\Documents\Repos\OEWIO2021\Content\OEWIO_PDFs\TestDir\";
+            //string rootPath = @"\\hqcuilms.area52.afnoapps.usaf.mil\E\DLL_Reengineering\Dependencies_x64_Release\";
+
             bool directoryExists = Directory.Exists(rootPath);
 
             if (directoryExists)
@@ -73,14 +71,13 @@ namespace Files_ConsoleApp
                     Console.WriteLine($"{ li.FileID},{  li.FileName },{ li.FileLastAccessTime },{ li.FileSize } ");
                 }
                 string strResultJson = JsonConvert.SerializeObject(list, Formatting.Indented);
-<<<<<<< HEAD
                 File.WriteAllText(@"C:\Users\hommy\Documents\Repos\FilesProject\Files_ConsoleApp\data\files.json", strResultJson);
 
                 // Dell
                 //File.WriteAllText(@"C:\Users\CW2_Rosado\OneDrive\Documents\Repos\FilesProject\Files_ConsoleApp\data\files.json", strResultJson);
-=======
+
                 File.WriteAllText(@"C:\Users\1260021520E\Documents\09_APL\FilesProject\Files_ConsoleApp\data\files.json", strResultJson);
->>>>>>> b35cb0d98f156b1bdedd11968891a56a8e8b9db7
+
 
             }
             else
